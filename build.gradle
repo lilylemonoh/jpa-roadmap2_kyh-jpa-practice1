@@ -32,6 +32,14 @@ dependencies {
 
 	// devtools
 	implementation 'org.springframework.boot:spring-boot-devtools:3.2.3'
+
+	// 쿼리 파라미터 로그 남기기
+	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.9.0'
+
+	//JUnit4
+	testImplementation("org.junit.vintage:junit-vintage-engine") {
+		exclude group: "org.hamcrest", module: "hamcrest-core"
+	}
 }
 
 tasks.named('test') {

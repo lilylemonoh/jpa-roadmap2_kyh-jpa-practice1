@@ -4,7 +4,7 @@
 
 **[Inflearn - 강의 링크](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard)**
 
-학습 기간: 2024/3/10~2024/
+학습 기간: 2024/3/10~2024/3/24
 
 # Curriculum
 ### 섹션 0. 강좌 소개

@@ -40,6 +40,9 @@ dependencies {
 	testImplementation("org.junit.vintage:junit-vintage-engine") {
 		exclude group: "org.hamcrest", module: "hamcrest-core"
 	}
+	// validation
+	implementation 'javax.validation:validation-api:2.0.1.Final'
+
 }
 
 tasks.named('test') {

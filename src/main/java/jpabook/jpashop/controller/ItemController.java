@@ -70,20 +70,20 @@ public class ItemController {
     /**
      * 상품 수정
      */
-    @PostMapping(value = "items/{itemId}/edit")
-    public String update(@ModelAttribute("form") BookForm form) {
-
-        Book book = new Book();
-        book.setId(form.getId());
-        book.setName(form.getName());
-        book.setPrice(form.getPrice());
-        book.setStockQuantity(form.getStockQuantity());
-        book.setAuthor(form.getAuthor());
-        book.setIsbn(form.getIsbn());
-
-        itemService.saveItem(book);
-        return "redirect:/items";
-    }
+//    @PostMapping(value = "items/{itemId}/edit")
+//    public String update(@ModelAttribute("form") BookForm form) {
+//
+//        Book book = new Book();
+//        book.setId(form.getId());
+//        book.setName(form.getName());
+//        book.setPrice(form.getPrice());
+//        book.setStockQuantity(form.getStockQuantity());
+//        book.setAuthor(form.getAuthor());
+//        book.setIsbn(form.getIsbn());
+//
+//        itemService.saveItem(book);
+//        return "redirect:/items";
+//    }
 
     /**
      * 상품 수정, 권장 코드
